@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
-const base = '/timsamart.github.io';
+const base = ''; //Base Path: Since your site is a user or organization site, there’s no need to specify a subpath for the base configuration. It should be an empty string both in development and production.
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
