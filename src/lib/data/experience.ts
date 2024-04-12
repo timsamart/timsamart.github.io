@@ -15,7 +15,7 @@ export const items: Array<Experience> = [
 		name: 'Head of Innovation and Concepts',
 		color: 'red',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Innovation,
 		shortDescription: 'Leading AI and data-driven solutions with a strategic and regulatory focus.'
 	},
 	{
@@ -30,7 +30,7 @@ export const items: Array<Experience> = [
 		name: 'Head of Technology',
 		color: 'blue',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.InterdisciplinaryTeamManagement,
 		shortDescription: 'Managed technology strategies and system integrations across the company.'
 	},
 	{
@@ -45,7 +45,7 @@ export const items: Array<Experience> = [
 		name: 'Software Engineer',
 		color: 'green',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.SoftwareDevelopment,
 		shortDescription: 'Developed and launched compliant medical software products.'
 	},
 	{
@@ -60,7 +60,7 @@ export const items: Array<Experience> = [
 		name: 'Software Developer',
 		color: 'purple',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.SoftwareDevelopment,
 		shortDescription: 'Developed advanced algorithms and software for diverse applications.'
 	}
 ];

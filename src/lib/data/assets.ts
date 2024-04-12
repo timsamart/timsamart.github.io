@@ -89,7 +89,15 @@ const Assets = {
     PatternRecognition: a('pattern-recognition.png'),
     MedicalDeviceIndustry: a('medical-device-industry.png'),
     MedicalDeviceRD: a('medical-device-rd.png'),
-    MedicalSoftware: a('medical-software.png')
+    MedicalSoftware: a('medical-software.png'),
+	ProblemSolving: a('problem-solving.png'),
+	StrategicPlanning: a('strategic-planning.png'),
+	CrossFunctionalTeamLeadership: a('cross-team.png'),
+	DesignThinking: a('design-thinking.png'),
+	CodeGeneration: a('code-gen.png'),
+	Research: a('research.png'),
+	ProcessOptimization: a('process-optimization.png'),
+	WebServices: a('web-service.png')
 };
 
 export default Assets;

@@ -11,7 +11,7 @@ export const description =
 	'I am passionate about tackling challenging, high-impact projects that advance cutting-edge technology and bring people forward. I envision	leveraging collaborative and assistive AI to address significant challenges	and seize opportunities that shape our century';
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/timsamart' },
 	{
 		platform: Platform.Linkedin,
 		link: 'https://www.linkedin.com/in/timosam/'
