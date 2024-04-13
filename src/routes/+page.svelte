@@ -7,7 +7,7 @@
 	import { items as skillsItems } from '@data/skills';
 	import { useTitle } from '$lib/utils/helpers';
 	import { isBlank } from '@riadh-adrani/utils';
-	import { getPlatfromIcon } from '$lib/utils';
+	import { getPlatfromIcon } from '$lib/utils/index';
 
 	const isEmail = (email: string): boolean => {
 		const reg =
