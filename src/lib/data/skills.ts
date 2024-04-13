@@ -250,6 +250,126 @@ export const items = [
         logo: Assets.MedicalSoftware, // Assume you have a logo for medical software in your assets
         name: 'Medical Software',
         category: 'Software'
+    }),
+    defineSkill({
+        slug: 'leadership',
+        color: 'red',
+        description: 'Leadership involves guiding teams and projects towards successful outcomes, fostering an environment of collaboration and effective decision-making.',
+        logo: Assets.EmpatheticLeadership,
+        name: 'Leadership',
+        category: 'Management'
+    }),
+    defineSkill({
+        slug: 'ai',
+        color: 'blue',
+        description: 'Artificial intelligence (AI) entails creating algorithms and systems that can perform tasks which typically require human intelligence, such as learning and problem-solving.',
+        logo: Assets.ArtificialIntelligence,
+        name: 'AI',
+        category: 'Technology'
+    }),
+    defineSkill({
+        slug: 'agile',
+        color: 'green',
+        description: 'Agile is a methodology that promotes continuous iteration and feedback in the development process, often used in software development and project management.',
+        logo: Assets.AgileProjectManagement,
+        name: 'Agile',
+        category: 'Project Management'
+    }),
+    defineSkill({
+        slug: 'regulatory-compliance',
+        color: 'purple',
+        description: 'Regulatory compliance refers to adhering to laws, regulations, guidelines, and specifications relevant to business processes.',
+        logo: Assets.RegulatoryCompliance,
+        name: 'Regulatory Compliance',
+        category: 'Compliance'
+    }),
+    defineSkill({
+        slug: 'team-management',
+        color: 'orange',
+        description: 'Team management involves overseeing a group of people, coordinating their efforts, and facilitating effective collaboration to achieve specific goals.',
+        logo: Assets.InterdisciplinaryTeamManagement,
+        name: 'Team Management',
+        category: 'Management'
+    }),
+    defineSkill({
+        slug: 'cloud-architecture',
+        color: 'lightblue',
+        description: 'Cloud architecture defines the components and subcomponents required for cloud computing, including the front and back end platforms, delivery, and networks involved.',
+        logo: Assets.Kubernetes,
+        name: 'Cloud Architecture',
+        category: 'Technology'
+    }),
+    defineSkill({
+        slug: 'product-development',
+        color: 'yellow',
+        description: 'Product development is the process of bringing a new product to market, which involves idea generation, design, development, and commercialization.',
+        logo: Assets.MedicalDeviceRD,
+        name: 'Product Development',
+        category: 'Engineering'
+    }),
+    defineSkill({
+        slug: 'iso-standards',
+        color: 'grey',
+        description: 'ISO standards are international standards agreed upon by the International Organization for Standardization, which help ensure quality, safety, and efficiency.',
+        logo: Assets.RegulatoryCompliance,
+        name: 'ISO Standards',
+        category: 'Quality Assurance'
+    }),
+    defineSkill({
+        slug: 'c-sharp',
+        color: 'darkblue',
+        description: 'C# is a modern, object-oriented, and type-safe programming language derived from C and C++ used extensively in web and desktop applications.',
+        logo: Assets.Csharp,
+        name: 'C#',
+        category: 'Programming'
+    }),
+    defineSkill({
+        slug: 'python',
+        color: 'darkgreen',
+        description: 'Python is a high-level, interpreted programming language known for its easy readability with great emphasis on automation and data analytics.',
+        logo: Assets.Python,
+        name: 'Python',
+        category: 'Programming'
+    }),
+    defineSkill({
+        slug: 'sql',
+        color: 'tan',
+        description: 'SQL (Structured Query Language) is a standard programming language used in database management and manipulation.',
+        logo: Assets.PostgreSQL,  // Using MongoDB logo as a placeholder for database related skills
+        name: 'SQL',
+        category: 'Data Management'
+    }),
+    defineSkill({
+        slug: 'software-testing',
+        color: 'teal',
+        description: 'Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do.',
+        logo: Assets.Selenium,
+        name: 'Software Testing',
+        category: 'Quality Assurance'
+    }),
+    defineSkill({
+        slug: 'iso-compliance',
+        color: 'violet',
+        description: 'ISO compliance ensures that materials, products, processes, and services are fit for their purpose and adhere to international standards.',
+        logo: Assets.RegulatoryCompliance,
+        name: 'ISO Compliance',
+        category: 'Quality Assurance'
+    }),
+    defineSkill({
+        slug: 'mongodb',
+        color: 'lime',
+        description: 'MongoDB is a NoSQL database known for its high performance, high availability, and easy scalability.',
+        logo: Assets.MongoDB,
+        name: 'MongoDB',
+        category: 'Data Management'
+    }),
+    defineSkill({
+        slug: 'opencv',
+        color: 'magenta',
+        description: 'OpenCV is an open source computer vision and machine learning software library designed to provide a common infrastructure for computer vision applications.',
+        logo: Assets.ComputerVision,
+        name: 'OpenCV',
+        category: 'Technology'
     })
 ] as const;
 
