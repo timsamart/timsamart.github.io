@@ -295,7 +295,7 @@ export const items = [
         slug: 'cloud-architecture',
         color: 'lightblue',
         description: 'Cloud architecture defines the components and subcomponents required for cloud computing, including the front and back end platforms, delivery, and networks involved.',
-        logo: Assets.Kubernetes,
+        logo: Assets.TechnicalExpertise,
         name: 'Cloud Architecture',
         category: 'Technology'
     }),
